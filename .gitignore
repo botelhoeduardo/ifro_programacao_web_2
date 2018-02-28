@@ -1,0 +1,11 @@
+Include/
+Lib/
+Scripts/
+bin
+lib
+include
+lib64
+pip-selfcheck.json
+*.cfg
+*.pyc
+*.sqlite3
