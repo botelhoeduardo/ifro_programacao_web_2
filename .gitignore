@@ -9,3 +9,4 @@ pip-selfcheck.json
 *.cfg
 *.pyc
 *.sqlite3
+.vscode/
