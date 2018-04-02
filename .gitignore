@@ -10,3 +10,4 @@ pip-selfcheck.json
 *.pyc
 *.sqlite3
 .vscode/
+share
