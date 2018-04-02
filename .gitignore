@@ -11,3 +11,4 @@ pip-selfcheck.json
 *.sqlite3
 .vscode/
 share
+migrations
