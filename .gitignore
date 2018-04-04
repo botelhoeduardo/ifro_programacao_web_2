@@ -12,3 +12,4 @@ pip-selfcheck.json
 .vscode/
 share
 migrations
+*.zip
