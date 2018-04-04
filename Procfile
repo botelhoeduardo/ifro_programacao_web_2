@@ -1,1 +1,1 @@
-web: gunicorn meublog.wsgi
+web: gunicorn meublog.meublog.wsgi --pythonpath meublog --log-file -
