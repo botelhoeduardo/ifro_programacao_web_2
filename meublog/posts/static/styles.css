@@ -1,7 +1,25 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.pagina {
+  display: grid;
+  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+}
+
 .cabecalho {
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  grid-area: 1 / 2 / 1 / 5;
 }
 
 .cabecalho ul {
+  list-style: none;
+}
+
+.post {
   list-style: none;
 }

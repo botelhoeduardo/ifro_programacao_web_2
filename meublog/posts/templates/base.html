@@ -9,13 +9,15 @@
   <title>Meu Blog</title>
 </head>
 <body>
-  <div class="cabecalho">
-    <ul>
-      <li> <a href="/">Home</a> </li>
-      <li> <a href="/novo">Novo</a> </li>
-    </ul>
+  <div class="pagina">
+    <div class="cabecalho">
+      <ul>
+        <li> <a href="/">Home</a> </li>
+        <li> <a href="/novo">Novo</a> </li>
+      </ul>
+    </div>
+    {% block conteudo %}
+    {% endblock %}
   </div>
-  {% block conteudo %}
-  {% endblock %}
 </body>
 </html>
