@@ -1,16 +1,16 @@
 {% extends 'base.html' %}
 {% block conteudo %}
 
-<ul>
-  <h1>Postagens</h1>
+<ul class="blog">
+  <h1 class="begin">Postagens</h1>
 {% for post in posts %}
 <li class="post">
-  <h1>{{ post.title }}</h1>
+  <h1 class="titulo">{{ post.title }}</h1>
   <br>
   <h3>por:</h3>
-  <h2>{{ post.author }}</h2>
+  <h2 class="autor">{{ post.author }}</h2>
   <br>
-  <p>{{ post.text }}</p>
+  <p class="conteudo">{{ post.text }}</p>
 </li>
 {% endfor %}
 </ul>

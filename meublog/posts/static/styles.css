@@ -8,7 +8,7 @@
 
 .pagina {
   display: grid;
-  grid-template-columns: 20% 20% 20% 20% 20%;
+  grid-template-columns: 10% 10% 60% 10% 10%;
   grid-template-rows: 20% 20% 20% 20% 20%;
 }
 
@@ -16,10 +16,46 @@
   grid-area: 1 / 2 / 1 / 5;
 }
 
-.cabecalho ul {
+.menu {
   list-style: none;
+  display: flex;
+  flex-flow: row;
+  justify-content: space-around;
+}
+
+.menu li {
+  justify-content: flex-end;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 2rem;
+  height: 10vh;
+}
+
+.menu li a {
+  text-decoration: none;
+}
+
+.blog {
+  grid-area: 2 / 3 / 6 / 4;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-flow: column;
+}
+
+.begin {
+  height: 10vh;
 }
 
 .post {
   list-style: none;
+}
+
+.form {
+  display: flex;
+  flex-flow: column;
+}
+
+.big {
+  width: 100px;
+  align-self: center;
 }
